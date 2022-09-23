@@ -1,0 +1,9 @@
+.client-img{
+    margin-top: 50px;
+}   
+@media (max-width: 472px) { 
+   .client-img{
+     padding-left: 30%;
+  
+} 
+}

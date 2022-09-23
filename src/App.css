@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+/* contaxt css */
+.Quote {
+  background-color: #f2a91e;
+  padding: 25px;
+  min-width: 500px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* card css */
+.card--container { 
+  padding: 20px;
 }
+/* .industries css */
+.industries {
+  background-color: #f2f2f2; 
+  height: auto;
+  padding-bottom: 13px;
+  min-width: 500px;
+  padding-top: 9px;
+}
+.heading {
+  margin-left: 44%;
+}
+.border-bottam {
+  border: 3px solid #f2a91e;
+  margin-left: 48%;
+  width: 40px;
+  margin-bottom: 30px;
+}
+/* .testimonials css */
+.testimonials {
+  padding-top: 15px;
+  min-width: 500px;
+}
+.heading-testimonial {
+  margin-left: 43%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+/* .clients css */
+.clients {
+  background-color: #f2f2f2;
+  height: auto;
+  padding: 10px;
+  min-width: 500px;
+}
+.heading-client {
+  margin-left: 43%;
+  padding-top: 8px;
+}
+/* .mobileapp css */
+.mobileapp {
+  width: 100%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-width: 500px;
+}
+/* blog css */
+.blog {
+  min-width: 500px;
+}
+.heading-blog {
+  padding: 20px;
+  font-size: 30px;
+}
+/* input css */
+.input-div { 
+  width: 100%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-width: 500px;
+  margin-top: 19px;
+}
+/* media query css */
+@media (max-width: 600px) {
+  .heading-client {
+    margin-left: 36%;
+    padding-top: 8px;
+  }
+  .border-bottam {
+    
+    margin-left: 45%;
+   
+  }
+  .heading-testimonial {
+    margin-left: 35%;
+   
+  }
+  .heading {
+    margin-left: 38%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 600px) {
+  .heading-blog {
+    margin-left: 20px;
   }
 }

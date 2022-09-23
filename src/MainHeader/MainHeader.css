@@ -1,0 +1,100 @@
+.homeImg{
+    position:relative ;
+
+}
+.homeImg-h3{
+    position: absolute;
+    top: 24%;
+    left: 90px;
+    color: #f2a91e;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+.homeImg-p{
+    position: absolute;
+    bottom: 27%;
+    left: 90px;
+    font-size: 30px; 
+    color: white;
+    letter-spacing: -1px;
+} 
+.homeImg-btn{
+   
+    position: absolute;
+    bottom: 20%;
+    left: 90px;
+   background-color: #f2a91e;
+   color: white;
+   border-style: none;
+   letter-spacing: -1px;
+   padding:5px;
+}
+.homeImg-btn:hover{
+ 
+   color: #2f2f2f;
+  
+}
+.securityImg{
+    position:relative ;
+}
+.securityImg-h1{
+    position: absolute;
+    top: 55%;
+    left: 90px;
+    color: #f2a91e;
+    font-size: 45px;
+}
+.securityImg-p{
+    position: absolute;
+    bottom: 16%;
+    left: 90px;
+    font-size: 25px;
+    color: white;
+}
+.securityImg-btn{
+    position: absolute;
+    bottom: 10%;
+    left: 90px;
+   background-color: #f2a91e;
+   color: white;
+   border-style: none;
+   padding:5px;
+}
+.securityImg-btn:hover{
+   
+   color: #2f2f2f;
+
+}
+@media (max-width: 1335px) {
+    .homeImg-h3{
+        position: absolute;
+        top: 16%;
+        left: 90px;
+        color: #f2a91e;
+        font-size: 60px;
+    }
+    .securityImg-h1{
+        position: absolute;
+        top: 55%;
+        left: 90px;
+        color: #f2a91e;
+        font-size: 45px;
+    }
+
+  }
+  @media (max-width: 1106px) {
+    .homeImg-h3{
+        position: absolute;
+        top: 18%;
+        left: 90px;
+        color: #f2a91e;
+        font-size: 50px; 
+    }
+    .securityImg-h1{
+        position: absolute;
+        top: 55%;
+        left: 90px;
+        color: #f2a91e;
+        font-size: 45px;
+    }
+  }

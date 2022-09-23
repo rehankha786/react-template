@@ -1,0 +1,17 @@
+ #industrie-card{
+  height: 30vh;
+  padding-top: 20px;
+}
+#industrie-card:hover{
+    background-color: white;
+     border:none
+ }     
+ h1{
+    font-size: 20px;
+    text-align: center;
+ }
+ p{
+    text-align: center;
+    font-size: 14px;
+    padding: 2px 8px 2px 8px
+ } 

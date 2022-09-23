@@ -1,0 +1,15 @@
+#btn{
+    color: white;
+    float: right;
+ } 
+ #btn:hover{
+    background-color: #f2a91e;
+    border: 2px solid white;
+    color: black;
+ }
+ @media (max-width: 576px) {  
+   #btn{ 
+ margin-right:40%;
+   }
+  }
+

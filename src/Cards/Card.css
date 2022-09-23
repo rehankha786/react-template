@@ -1,0 +1,150 @@
+.card-img{
+    position: relative;
+    width:28% ;
+}
+.card-title{
+    margin-top: 60px;
+    font-size: medium;
+}
+.disc{
+    margin-top: 30px;
+    font-size: small;
+    text-align: center;
+}
+.card-overlay{
+    position: absolute;
+     bottom: 0%; 
+    left: 0%;
+    height: 35%;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+}
+.card-overlay  > *{
+    transform: translateY(20px);
+    transition: transform (0.25s);
+ 
+}
+
+.card-overlay:hover{
+    opacity: 1;
+    height: 100%;
+    width: 350px;
+    transition: opacity 0.25s;
+   
+}
+.card-overlay:hover > *{
+    transform: translateY(0);
+}
+@media (max-width: 786px) { 
+    .card-pic{
+        width: 550px;
+        height: 450px;
+    }
+    .card-overlay{
+        position: absolute;
+       top: 0%;
+        height: 450px;
+        width: 550px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-overlay  > *{
+        transform: translateY(20px);
+        transition: transform (0.25s);
+    }
+    
+    .card-overlay:hover{
+        opacity: 1;
+        height: 100%;
+        width: 550px;
+        transition: opacity 0.25s;
+    }
+    .card-overlay:hover > *{
+        transform: translateY(0);
+    }
+   }
+   @media (max-width: 988px) { 
+    .card-pic{
+        width: 700px;
+        height: 350px;
+    }
+    .card-overlay{
+        position: absolute;
+       top: 0%;
+        height: 350px;
+        width: 700px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+    .card-overlay:hover{
+        width: 700px; 
+    }
+   }
+   @media (max-width: 770px) { 
+    .card-pic{
+        width: 550px;
+        height: 350px;
+    }
+    .card-overlay{
+        position: absolute;
+       top: 0%;
+        height: 350px;
+        width: 550px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+    .card-overlay:hover{
+        width: 550px; 
+    }
+}
+   @media (max-width: 680px) { 
+    .card-pic{
+        width: 420px;
+        height: 300px;
+        margin-left: 35px;
+    }
+    .card-overlay{
+        position: absolute;
+       top: 0%;
+       margin-left: 35px;
+        height: 300px;
+        width: 420px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+    .card-overlay:hover{
+        width: 420px; 
+    }
+    
+   }
+   @media (max-width: 543px) { 
+    .card-pic{
+        width: 400px;
+        height: 300px;
+        margin-left:16px;
+    }
+    .card-overlay{
+        position: absolute;
+       top: 0%;
+       margin-left: 16px;
+        height: 300px;
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+    }
+    .card-overlay:hover{
+        width: 400px;
+    }
+    
+   } 

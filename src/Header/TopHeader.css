@@ -1,0 +1,18 @@
+.NavBar{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+.paraIcon{
+     display: flex;
+padding: 10px 0px 0px 0px;
+    }
+.paraIcon > p{
+ color: white;
+    font-size: 13px; 
+    padding-left: 14px;
+
+}
+#map-icon{
+    color: #f2a91e;
+}

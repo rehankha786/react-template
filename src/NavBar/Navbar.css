@@ -1,0 +1,7 @@
+.navbar{
+    justify-content: space-around;
+    min-width: 500px;
+}
+.nav-item:hover{
+    color: #f2a91e;
+}
